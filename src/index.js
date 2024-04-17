@@ -1,12 +1,22 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
-import App from './App';
+import { Provider } from 'react-redux';
+import jQuery from 'jquery';
+import App from './components/app/App';
+import './assets/bootstrap/css/bootstrap.min.css';
+import './assets/js/theme.js';
+import {BrowserRouter, Route, Switch} from "react-router-dom"
+import './assets/css/untitled.css';
+import store from './appStore/store';
 import reportWebVitals from './reportWebVitals';
-
+//this is a test note for commit
 ReactDOM.render(
   <React.StrictMode>
+    <BrowserRouter >
+    <Provider store={store}>
     <App />
+    </Provider>
+    </BrowserRouter>
   </React.StrictMode>,
   document.getElementById('root')
 );

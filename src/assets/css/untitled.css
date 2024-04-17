@@ -1,0 +1,28 @@
+.navbar-expand-sm .navbar-nav li {
+  margin-right: 20px;
+}
+
+@media (max-width: 470px) {
+  #sidebar {
+    width: 10rem!important;
+  }
+  .showSide {
+    width: 16rem!important;
+  }
+  .hideSide {
+    width: 0rem!important;
+    display: none!important;
+  }
+}
+.sidebar-dark {
+  width: 15rem!important;
+}
+
+.showSide {
+  width: 16rem!important;
+  
+}
+.hideSide {
+  width: 0rem!important;
+  display: none!important;
+}

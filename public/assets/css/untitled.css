@@ -1,0 +1,20 @@
+.navbar-expand-sm .navbar-nav li {
+  margin-right: 20px;
+}
+
+@media (max-width: 470px) {
+  #sidebar {
+    width: 0rem!important;
+  }
+}
+.sidebar-dark {
+  width: 15rem!important;
+}
+
+.showSide {
+  width: 14rem!important;
+}
+.hideSide {
+  width: 0rem!important;
+  display: none!important;
+}
